@@ -1,0 +1,422 @@
+
+h1{
+  padding: 20px;
+  color: #00eaff;
+  background-color: deeppink;
+  text-align: center;
+}
+
+
+
+
+body {
+  background-color:#EF5350;
+  overflow-x: hidden;
+}
+
+.bg-white {
+  background-color:#fff;
+}
+
+.navbar-brand {
+  padding: 23.5px 20px;
+  font-size: 18px;
+  
+}
+
+.navbar-nav {
+  width: 100%;
+  background-color:darkgray;
+}
+
+.nav-item {
+  padding: 20px 8px;
+  margin: 0px 3px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
+  color:#030303;
+  position: static;
+}
+
+.nav-item.active {
+  color: #EF5350;
+}
+
+.nav-item:hover {
+  color: #EF5350;
+}
+
+strong{
+  color: #030303;
+}
+.nav-link {
+  padding: 5px;
+}
+
+.navbar-collapse.collapse.in {
+  display: block !important;
+}
+
+.fa-angle-down {
+  padding-left: 10px;
+}
+
+.fa-icon {
+  font-size: 30px;
+  color: #fff;
+  background-color: pink;
+  margin: 2px 10px 5px 0px;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.dropdown-menu {
+  margin:20px ;
+  border: none;
+  background-color: #F3E5F5;
+  padding:20px;
+  
+}
+
+#dropdown-menu1 {
+  position: absolute;
+  left: 165px;
+  padding: 20px;
+  
+
+}
+
+#dropdown-menu2 {
+  position: absolute;
+  left: 500px;
+}
+
+#dropdown-menu3 {
+  position: absolute;
+  left: 100px;
+}
+
+.tab {
+  margin-bottom: 10px;
+  width: 230px;
+}
+
+.tab:hover {
+  color: #E91E63 !important;
+}
+
+.dropdown-item {
+  padding: 0px;
+}
+
+.dropdown-item:hover {
+  background-color: inherit;
+}
+
+@media (max-width: 767px) {
+  .nav-item {
+      width: 100%; 
+      text-align: left;
+      padding-left: 10px;
+  }
+
+  .dropdown-menu {
+      left: 0 !important;
+      position: relative !important;
+      padding: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.pic-ctn {
+  width: 100vw;
+  height: 200px;
+}
+
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+.pic-ctn {
+  position: relative;
+  width: 100vw;
+  height: 300px;
+  margin-top: 15vh;
+}
+
+.pic-ctn > img {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 200px);
+  opacity: 0;
+  animation: display 10s infinite;
+}
+
+img:nth-child(2) {
+  animation-delay: 2s;
+}
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+img:nth-child(4) {
+  animation-delay: 6s;
+}
+img:nth-child(5) {
+  animation-delay: 8s;
+}
+
+
+
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+  color: fuchsia;
+  
+}
+
+h3{
+  color: crimson;
+  margin: 30px;
+
+}
+h5{
+  color:crimson ;
+  margin: 30px;
+  
+}
+
+b{
+  color: fuchsia;
+}
+
+
+
+
+
+/*********footer*******************/
+.kilimanjaro-area {
+  position: relative;
+  z-index: 1;
+}
+.foo_top_header_one {
+  background-color:pink;
+  color: blue;
+}
+.section_padding_100_70 {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+.foo_top_header_one {
+  color: blue;
+}.kilimanjaro_part {
+  margin-bottom: 30px;
+}
+.foo_top_header_one .kilimanjaro_part > h5 {
+  color: blue;
+}
+.kilimanjaro_part h4, .kilimanjaro_part h5 {
+  margin-bottom: 30px;
+}
+.kilimanjaro_single_contact_info > p, .kilimanjaro_single_contact_info > h5, .kilimanjaro_blog_area > a, .foo_top_header_one .kilimanjaro_part > p {
+  color:maroon;
+}
+p, ul li, ol li {
+  font-weight: 300;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.kilimanjaro_bottom_header_one {
+  background-color: deeppink;
+}
+.section_padding_50 {
+  padding: 50px 0;
+}
+.kilimanjaro_bottom_header_one p {
+  color: violet;
+  margin: 0;
+  font-size: 30px;
+}
+p, ul li, ol li {
+  font-weight: 300;
+}
+.kilimanjaro_bottom_header_one a {
+  color: inherit;
+  font-size: 14px;
+}
+a, h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+.m-top-15 {
+  margin-top: 15px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.kilimanjaro_widget > li {
+  display: inline-block;
+}
+p, ul li, ol li {
+  font-weight: 300;
+}
+ol li, ul li {
+  list-style: outside none none;
+}
+.kilimanjaro_widget a {
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: maroon;
+  display: inline-block;
+  font-size: 13px;
+  margin-bottom: 4px;
+  padding: 7px 12px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.kilimanjaro_links a {
+  border-bottom: 1px solid ;
+  color: chartreuse;
+  display: block;
+  font-size: 13px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+}
+.kilimanjaro_links a {
+  color: chartreuse;
+  font-size: 13px;
+}
+top-15 {
+  margin-top: 15px;
+}
+.foo_top_header_one .kilimanjaro_part > h5 {
+  color:blue;
+}
+.kilimanjaro_part h4, .kilimanjaro_part h5 {
+  margin-bottom: 30px;
+}
+.kilimanjaro_social_links > li {
+  display: inline-block;
+}
+p, ul li, ol li {
+  font-weight: 300;
+}
+.kilimanjaro_social_links a {
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: crimson;
+  display: inline-block;
+  font-size: 13px;
+  margin-bottom: 3px;
+  padding: 7px 12px;
+}
+.kilimanjaro_blog_area .kilimanjaro_date {
+  color: #27ae60;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.kilimanjaro_blog_area > p {
+  color: rgb(253, 14, 62);
+  line-height: 1.3;
+  margin-bottom: 0;
+}
+.kilimanjaro_works > a {
+  display: inline-block;
+  
+  position: relative;
+  width: 33.33333333%;
+  z-index: 1;
+}
+.kilimanjaro_thumb {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 75px;
+}
+.kilimanjaro_links a i {
+  padding-right: 10px;
+}
+/* :: 18.0 Footer Area CSS */
+
+  .footer_area {
+      position: relative;
+      z-index: 1;
+  }
+.footer_bottom p > i,
+  .footer_bottom p > a:hover {
+      color: #27ae60;
+  }	
+
+  .social_links_area {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 50px 0 30px 0;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+  }
+.social_links_area > a:hover {
+      color: #27ae60;
+  }
+
+  .inline-style .social_links_area > a:hover {
+      background-color: transparent;
+      color: #27ae60;
+      border: 0px solid transparent;
+  }
+.single_feature:hover .feature_text h4 {
+      color: #27ae60;
+  }
+.kilimanjaro_blog_area {
+  border-bottom: 1px solid #333;
+  margin-bottom: 15px;
+  padding: 0 0 15px 90px;
+  position: relative;
+  z-index: 1;
+}
+.kilimanjaro_links a {
+  border-bottom: 1px solid #333;
+  color: #030303;
+  display: block;
+  font-size: 13px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+}
